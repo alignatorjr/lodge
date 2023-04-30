@@ -1,0 +1,162 @@
+.mainImg {
+	cursor: pointer;
+}
+
+.mathImg {
+	cursor: pointer;
+}
+
+.loginImg {
+	width: 9%;
+	height: 9%;
+}
+
+.settingImg{
+	padding-left: 5%;
+}
+
+.otherImg {
+	cursor:pointer;
+}
+
+.headerClass{
+	margin:auto;
+}
+
+.footerText {
+	font-family: "Cascadia Code", monospace;
+	color: 5dfe55;
+}
+
+.footer {
+    text-align: center;
+}
+.footer-leo{
+	cursor:pointer;
+}
+.footer-rights{
+	padding-left:5%;
+	padding-right:5%;
+}
+.footer-date{
+}
+
+.centerImg{
+	padding-left:38%;
+}
+.logininputs{
+	padding-top:1%;
+	padding-left:35%;
+}
+.loginbox{
+	background-color:black;
+	border-color: 1a4517;
+	border-style: solid;
+	border-width: 2;
+	outline:none;
+	color: 5dfe55;
+	font-size:200%;
+	width:35%;
+	height:7%;
+	border-radius:5px;
+	text-align:bottom;
+	font-family: "Cascadia Code", monospace;
+}
+
+.benis{
+	padding-top:2%;
+}
+.gologin{
+	padding-left:9%;
+	cursor:pointer;
+	
+}
+
+.introanimation {
+	animation-name: intro;
+    animation-duration: 4s;
+}
+
+@keyframes intro {
+    0%   {top:8vw; visibility:visible;}
+    100% {top:-40vw;}
+}
+
+.houseintroanimation {
+	animation-name: houseintro;
+    animation-duration: 4s;
+}
+
+@keyframes houseintro {
+    0%   {top:10vw; visibility:visible;}
+    100% {top:-40vw;}
+}
+
+.backgroundanimation {
+	animation-name: backintro;
+    animation-duration: 4s;
+}
+
+@keyframes backintro {
+    0%   {top:0vw; visibility:visible;}
+    100% {top:-100vw;}
+}
+
+
+.passdiv{
+	border-style:solid;
+	border-width:2px;
+	border-color:green;
+	display:inline-block;
+	white-space:pre-line;
+}
+
+.iFrame1{
+	position:relative;
+	height: 50%;
+	width: 25%;
+	padding-left:38%;
+	padding-top:5%;
+	outline: none;
+	border: none;
+}
+.simp{
+	height:49%;
+	width:3%;
+	left:35%;
+	top:32%;
+	position:absolute;
+	color: red;
+	background-color: #919da3;
+	border: 5px solid #aab8bf;
+}
+.simn{
+	height:49%;
+	width:3%;
+	left:63%;
+	top:32%;
+	position:absolute;
+	color: red;
+	background-color: #919da3;
+	border: 5px solid #aab8bf;
+}
+
+
+.simSwitch{
+	position:relative;
+	height:10%;
+	width:10%;
+	padding-left:38%;
+	padding-top:5%;
+	outline: none;
+	border: none;
+}
+
+.asciitext{
+	color: 5dfe55;
+	font-family:"Cascadia Code", monospace;
+}
+
+.balls1 {
+	tab-size: 8;
+}
