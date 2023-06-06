@@ -160,3 +160,24 @@
 .balls1 {
 	tab-size: 8;
 }
+
+.car_img {
+    border: #5dfe55;
+    border-style: solid;
+    border-width: medium;
+    height:100%;
+    width:100%;
+    object-fit:cover;
+}
+
+.left_item {
+    display: grid;
+    padding-left: 5%;
+    justify-content: start;
+    grid-column-gap: 5%;
+    grid-row-gap: 20%;
+    padding-left:5%;
+    padding-right:5%;
+    grid-template-rows: fit-content(15%) fit-content(15%);
+    grid-template-columns: fit-content(30%) fit-content(30%);
+}
