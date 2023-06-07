@@ -32,14 +32,17 @@
 		}
 	</style>
 	<script>
+		function alerttest() {
+			  alert("hi");
+		}
+
 		function checkForCookie(cname) {
 			  var cookie = getCookie("intro");
-			  alert("penis");
 			  if (cookie==null) {
 			  	alert("still here");
 			  	cookie="";
 			  }
-			}
+		}
 	</script>
 
 	<link rel="stylesheet" href="styles.css">
@@ -115,7 +118,7 @@
 			( (__ /    \ )   /\___ \ \_/
 			 \___)\_/\_/(__\_)(____/ (_)
 	</pre>
-	<button onClick="checkForCookie('intro')" style="height:15%; width:15%;"> HELLO </button>
+	<button onClick="alerttest()" style="height:15%; width:15%;"> HELLO </button>
 </div>
 </body>
 </html>
