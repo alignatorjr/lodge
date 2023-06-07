@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script>
+		function setCookie(cname, cvalue, exdays) {
+		  const d = new Date();
+		  d.setTime(d.getTime() + (exdays*24*60*60*1000));
+		  let expires = "expires="+ d.toUTCString();
+		  document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+		}
+	</script>
+
+	<style>
+		.asciitext{
+			color: 5dfe55;
+			font-family:"Cascadia Code", monospace;
+		}
+
+		.box {
+		  width: 100px;
+		  height: 100px;
+		  background-color: red;
+		  position: relative;
+		  animation-name: example;
+		  animation-duration: 4s;
+		}
+
+		.regbox {
+		  width: 100px;
+		  height: 100px;
+		  background-color: red;
+		}
+
+		@keyframes example {
+		  0%   {background-color:red; left:0px; top:0px;}
+		  25%  {background-color:yellow; left:200px; top:0px;}
+		  50%  {background-color:blue; left:200px; top:200px;}
+		  75%  {background-color:green; left:0px; top:200px;}
+		  100% {background-color:red; left:0px; top:0px;}
+		}
+	</style>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body onload="setCookie()" style="background-color:black;">
+
+<div id="allintrostuff" style="visibility:hidden;">
+	<div id="intro" style="position:fixed; background-color:black; height:100vw; width:100vw;"></div>
+	<div id="house" style="position:fixed; top:10vw; left:23vw; line-height:35%; color:#1af208; background-color:black; font-size:1.5vw">
+
+
+		<pre>                                   /\</pre>
+		<pre>                              /\  //\\</pre>
+		<pre>                       /\    //\\///\\\        /\</pre>
+		<pre>                      //\\  ///\////\\\\  /\  //\\</pre>
+		<pre>         /\          /  ^ \/^ ^/^  ^  ^ \/^ \/  ^ \</pre>
+		<pre>        / ^\    /\  / ^   /  ^/ ^ ^ ^   ^\ ^/  ^^  \</pre>
+		<pre>       /^   \  / ^\/ ^ ^   ^ / ^  ^    ^  \/ ^   ^  \       *</pre>
+		<pre>      /  ^ ^ \/^  ^\ ^ ^ ^   ^  ^   ^   ____  ^   ^  \     /|\</pre>
+		<pre>     / ^ ^  ^ \ ^  _\___________________|  |_____^ ^  \   /||o\</pre>
+		<pre>    / ^^  ^ ^ ^\  /______________________________\ ^ ^ \ /|o|||\</pre>
+		<pre>   /  ^  ^^ ^ ^  /________________________________\  ^  /|||||o|\</pre>
+		<pre>  /^ ^  ^ ^^  ^    ||___|___||||||||||||___|__|||      /||o||||||\</pre>
+		<pre> / ^   ^   ^    ^  ||___|___||||||||||||___|__|||          | |</pre>
+		<pre>/ ^ ^ ^  ^  ^  ^   ||||||||||||||||||||||||||||||oooooooooo| |ooooooo</pre>
+		<pre>ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo</pre>
+	</div>
+
+	<div id="smokestack" style="position:fixed; line-height:15%; color:#1af208; font-size:1.5vw; top:26vw; left:29.5vw;">
+			<pre class="smoke" style="visibility:hidden">
+				000
+			</pre>
+		<pre class="smoke" style="visibility:hidden">
+				000
+			</pre>
+		<pre class="smoke" style="visibility:hidden">
+				 000
+			</pre>
+		<pre class="smoke" style="visibility:hidden">
+				0000
+			</pre>
+		<pre class="smoke" style="visibility:hidden">
+				000
+				</pre>
+		<pre class="smoke" style="visibility:hidden">
+				  00
+				</pre>
+		<pre class="smoke" style="visibility:hidden">
+				 000
+				</pre>
+		<pre class="smoke" style="visibility:hidden">
+				000
+				</pre>
+		<pre class="smoke" style="visibility:hidden">
+				0000
+				</pre>
+	</div>
+</div>
+<div id="website" style="visibility:visible;">
+	<pre style="color:lime;" style="cursor:pointer;">
+
+  .____                        .____              .___
+  |    |    ____  ____  ______ |    |    ____   __| _/ ____   ____
+  |    |  _/ __ \/  _ \/  ___/ |    |   /  _ \ / __ | / ___\_/ __ \
+  |    |__\  ___(  &lt_> )___ \  |    |__(  &lt_> ) /_/ |/ /_/  >  ___/
+  |_______ \___  >____/____  > |_______ \____/\____ |\___  / \___  >
+          \/   \/          \/          \/          \/_____/      \/
+		</pre>
+	<pre style="color:lime;" style="cursor:pointer;">
+
+			  ___   __   ____  ____   _
+			 / __) / _\ (  _ \/ ___) / \
+			( (__ /    \ )   /\___ \ \_/
+			 \___)\_/\_/(__\_)(____/ (_)
+	</pre>
+</div>
+</body>
+</html>
