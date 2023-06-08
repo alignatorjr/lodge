@@ -32,12 +32,9 @@
 		}
 	</style>
 	<script>
-		function alerttest() {
-			  alert("hi");
-		}
-
 		function checkForCookie(cname) {
-			  var cookie = getCookie("intro");
+			  var cookie = getCookie(cname);
+			  alert("hi");
 			  if (cookie==null) {
 			  	alert("still here");
 			  	cookie="";
@@ -118,7 +115,7 @@
 			( (__ /    \ )   /\___ \ \_/
 			 \___)\_/\_/(__\_)(____/ (_)
 	</pre>
-	<button onClick="alerttest()" style="height:15%; width:15%;"> HELLO </button>
+	<button onClick="checkForCookie('intro')" style="height:15%; width:15%;"> HELLO </button>
 </div>
 </body>
 </html>
