@@ -31,3 +31,13 @@ var x = 0;
   				document.getElementById("intro").remove();
 			});
 		}
+
+		function checkForCookie(cname) {
+        	if (document.cookie == 'intro=intro'){
+        		alert("no intro");
+        	}
+        	else {
+        		alert("do intro");
+        	}
+        }
+
