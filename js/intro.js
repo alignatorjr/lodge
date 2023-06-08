@@ -3,6 +3,7 @@ var x = 0;
 			var smoke = document.getElementsByClassName("smoke");
 			var hasCookie = checkForCookie('intro');
 			if (hasCookie == true){
+			    alert("hi");
 			    document.getElementById("house").remove();
               	document.getElementById("smokestack").remove();
               	document.getElementById("intro").remove();
