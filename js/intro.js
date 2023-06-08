@@ -3,7 +3,6 @@ var x = 0;
 			var smoke = document.getElementsByClassName("smoke");
 			var hasCookie = checkForCookie('intro');
 			if (hasCookie == true){
-			    alert("hi");
 			    document.getElementById("house").remove();
               	document.getElementById("smokestack").remove();
               	document.getElementById("intro").remove();
@@ -46,10 +45,10 @@ var x = 0;
 
 		function checkForCookie(cname) {
         	if (document.cookie == 'intro=intro'){
-        		return false;
+        		return true;
         	}
         	else {
-        		return true;
+        		return false;
         	}
         }
 
