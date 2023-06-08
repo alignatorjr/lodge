@@ -28,6 +28,7 @@ var x = 0;
                     house.classList.add("houseintroanimation");
                     intro.classList.add("backgroundanimation");
                     clearTimeout(myVar);
+                    document.cookie='intro=intro;expires=Wed 18 Dec 2026 12:00:00 GMT';
                 }
       		}
       		x++;
