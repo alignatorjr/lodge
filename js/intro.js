@@ -2,14 +2,19 @@ var x = 0;
 		function smokeMove(){
 			var smoke = document.getElementsByClassName("smoke");
 			var hasCookie = checkForCookie('intro');
+			var smokestack = document.getElementById("smokestack");
+            var house = document.getElementById("house");
+            var intro = document.getElementById("intro");
+            var allintro = document.getElementById("allintrostuff");
 			if (hasCookie == true){
-			    document.getElementById("house").remove();
-              	document.getElementById("smokestack").remove();
-              	document.getElementById("intro").remove();
+			    house.remove();
+              	smokestack.remove();
+              	intro.remove();
               	clearTimeout(myVar);
 			    return;
 			}
 			else{
+			    allintro.style.visibility="visible";
                 x=0;
                 while (smoke[x].style.visibility!="hidden"){
                     x++;
@@ -19,9 +24,6 @@ var x = 0;
                 document.getElementById("smokestack").style.top = newfromtop + "vw";
                 smoke[x].style.visibility = "visible";
                 if(x>=8){
-                    var smokestack = document.getElementById("smokestack");
-                    var house = document.getElementById("house");
-                    var intro = document.getElementById("intro");
                     const allintro = document.getElementById("allintrostuff");
                     animationListener(allintrostuff);
                     smokestack.classList.add("introanimation");
