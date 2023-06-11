@@ -13,8 +13,8 @@ var x = 0;
               	clearTimeout(myVar);
 			    return;
 			}
-			allintro.style.visibility="visible";
 			else{
+				allintro.style.visibility="visible";
                 x=0;
                 while (smoke[x].style.visibility!="hidden"){
                     x++;
