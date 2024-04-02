@@ -33,7 +33,7 @@ function showPass(){
         }
 
 		function checkForStillCookie(){
-			if (document.cookie == 'login=katie'){
+			if (document.cookie == 'login=katie' || document.cookie == 'intro=intro; login=katie'){
 				return true;
 			}
 			else{
