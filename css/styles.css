@@ -54,11 +54,11 @@
 }
 .loginbox{
 	background-color:black;
-	border-color: 1a4517;
+	border-color: #1a4517;
 	border-style: solid;
 	border-width: 2;
 	outline:none;
-	color: 5dfe55;
+	color: #5dfe55;
 	font-size:200%;
 	width:35%;
 	height:7%;
@@ -157,7 +157,7 @@
 }
 
 .asciitext{
-	color: 5dfe55;
+	color: #5dfe55;
 	font-family:"Cascadia Code", monospace;
 }
 
@@ -201,7 +201,7 @@
 .poster_dropdown {
     font-family: sansunithin;
     font-size:200%;
-    color: 5dfe55;
+    color: #5dfe55;
     background-color: black;
     border-style: dashed;
     border-width: thin;
@@ -212,12 +212,12 @@
 
 .poster_font{
     font-family: sansunithin;
-    color: 5dfe55;
+    color: #5dfe55;
     text-align:center;
 }
 
 .poster_link{
-    color: c5c5c5;
+    color: #c5c5c5;
     text-align:center;
     font-style:italic;
 }
@@ -240,7 +240,7 @@
 .discord_dropdown {
     font-family: sansunithin;
     font-size:200%;
-    color: 5dfe55;
+    color: #5dfe55;
     background-color: #323232;
     border-style: dashed;
     border-width: thin;
