@@ -46,7 +46,7 @@ var x = 0;
 		}
 
 		function checkForCookie(cname) {
-        	if (document.cookie == 'intro=intro'){
+        	if (document.cookie == 'intro=intro' || document.cookie == "intro=intro; login=katie"){
         		return true;
         	}
         	else {
