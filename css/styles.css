@@ -6,6 +6,10 @@
 	cursor: pointer;
 }
 
+@font-face {
+    font-family: sansunithin;
+    src: url('uni-sans.thin-caps.otf');
+}
 .loginImg {
 	width: 9%;
 	height: 9%;
@@ -25,7 +29,7 @@
 
 .footerText {
 	font-family: "Cascadia Code", monospace;
-	color: 5dfe55;
+	color: #5dfe55;
 }
 
 .footer {
@@ -165,12 +169,18 @@
     border: #5dfe55;
     border-style: solid;
     border-width: medium;
-    height:100%;
-    width:100%;
+    height:10vw;
+    width:20vw;
     object-fit:cover;
 }
 
-.left_item {
+.car_text{
+    color:#5dfe55;
+    width:max-content;
+    font-size:.7vw;
+}
+
+.car_grid {
     display: grid;
     padding-left: 5%;
     justify-content: start;
@@ -180,4 +190,115 @@
     padding-right:5%;
     grid-template-rows: fit-content(15%) fit-content(15%);
     grid-template-columns: fit-content(30%) fit-content(30%);
+}
+
+.poster_choice {
+    display: flex;
+    place-content: center;
+    column-gap: 1%;
+}
+
+.poster_dropdown {
+    font-family: sansunithin;
+    font-size:200%;
+    color: 5dfe55;
+    background-color: black;
+    border-style: dashed;
+    border-width: thin;
+    border-color: #5dfe31;
+    width:10%;
+    height:3.5vw;
+}
+
+.poster_font{
+    font-family: sansunithin;
+    color: 5dfe55;
+    text-align:center;
+}
+
+.poster_link{
+    color: c5c5c5;
+    text-align:center;
+    font-style:italic;
+}
+
+.poster_grid{
+    display:grid;
+    padding-top:3vw;
+    justify-content: center;
+    column-gap:4vw;
+    grid-template-columns: repeat(5,1fr);
+    justify-items: center;
+}
+
+.discord-main{
+    display:flex;
+    flex-wrap:wrap;
+    gap:5vw;
+}
+
+.discord_dropdown {
+    font-family: sansunithin;
+    font-size:200%;
+    color: 5dfe55;
+    background-color: #323232;
+    border-style: dashed;
+    border-width: thin;
+    border-color: #5dfe31;
+}
+
+.command_box{
+    flex: 55%;
+    background-color: #323232;
+    border-width: thick;
+    border-style: inset;
+    border-top-color: black;
+    border-left-color: #8f8f8f;
+    border-bottom-color: #344a2e;
+    border-right-color: #344a2e;
+}
+
+.discord-link{
+    display: inline-grid;
+	grid-template-columns: repeat(2,1fr);
+    justify-items: center;
+    align-items: center;
+	column-gap: 1vw;
+}
+
+.discord-image-border{
+    border-style: groove;
+    border-width: thin;
+    border-color: #45fe55;
+}
+
+.choices-choice{
+    background-color: #323232;
+    font-size: larger;
+    border-style: groove;
+    cursor:pointer;
+}
+
+.grid-commands{
+    display:grid;
+    grid-template-columns: repeat(1,1fr);
+    row-gap: .5vw;
+}
+
+.input_buttons{
+    width:50%;
+    height:10%;
+    font-size:200%;
+    background-color:black;
+    border-color: #38cb44;
+    border-style:ridge;
+    border-width:1px;
+}
+
+::placeholder{
+    color:#38cb44;
+}
+
+.input_div{
+    padding-left:3%;
 }
