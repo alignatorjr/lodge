@@ -5,6 +5,7 @@ function AddCookie(){
 	var password = document.getElementById('password').value;
 	if (username == 'katie' && password == 'bootylicious') {
 		document.cookie = 'login=katie';
+		location.href = 'https://alignatorjr.github.io/lodge/katie'
 	}
 }
 
