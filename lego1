@@ -1,0 +1,28 @@
+<html>
+<head>
+	<link rel="stylesheet" href="css/styles.css">
+	<title>Leo's Lodge - Login</title>
+	<link rel="icon" href="https://raw.githubusercontent.com/alignatorjr/lodge/main/imgs/titleImg.png">
+	<meta name="viewport" content="width=device-width, initial-scale=0.5">
+	<script type="text/javascript" src="js/login.js"></script>
+</head>
+<body style="background-color:black;">
+<div id="website" style="visibility:visible;">
+		<pre class="asciitext" style="cursor:pointer;" onClick="location.href = 'https://alignatorjr.github.io/lodge/';">
+
+      _____  __      __  _____    ___ ___  
+     /     \/  \    /  \/  _  \  /   |   \ 
+    /  \ /  \   \/\/   /  /_\  \/    ~    \
+   /    Y    \        /    |    \    Y    /
+   \____|__  /\__/\  /\____|__  /\___|_  / 
+           \/      \/         \/       \/  
+		</pre>
+	<pre class="car_text">
+You could win my heart.
+			</pre>
+	<pre class="car_text" onClick="location.href = 'https://alignatorjr.github.io/lego.html;">
+BUT YOU ALREADY DID
+			</pre>
+</div>
+</body>
+</html>
