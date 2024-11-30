@@ -7,6 +7,10 @@ function AddCookie(){
 		document.cookie = 'login=katie';
 		location.href = 'https://alignatorjr.github.io/lodge/katie'
 	}
+	if (username == 'UC' && password == 'lemein') {
+		document.cookie = 'login=UC';
+		location.href = 'https://alignatorjr.github.io/lodge/UCs'
+	}
 }
 
 function AddCookie1(){
