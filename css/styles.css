@@ -493,7 +493,7 @@
         font-size:8vw;
         margin-bottom:30px;
 
-        color: #bb00ff !important;
+        color: #37ff00 !important;
     }
 
     .searchBox input{
@@ -505,6 +505,7 @@
         width:95%;
         grid-template-columns:1fr;
         grid-template-rows:auto;
+        overflow:visible
     }
 
     .recordSection{
