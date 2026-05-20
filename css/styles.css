@@ -34,6 +34,7 @@
 
 .footer {
     text-align: center;
+
 }
 .footer-leo{
 	cursor:pointer;
@@ -301,4 +302,168 @@
 
 .input_div{
     padding-left:3%;
+}
+
+.title{
+    text-align:center;
+    font-size:40px;
+    margin-bottom:30px;
+    color:#5dfe55;
+    font-family:"Cascadia Code", monospace;
+}
+
+.searchBox{
+    text-align:center;
+    margin-bottom:40px;
+}
+
+.searchBox input{
+    width:300px;
+    padding:10px;
+    background:black;
+    border:2px solid #5dfe55;
+    color:#5dfe55;
+    font-family:"Cascadia Code", monospace;
+}
+
+.bookshelf{
+    width:900px;
+    margin:auto;
+
+    display:grid;
+    grid-template-columns:repeat(2, 1fr);
+    grid-template-rows:repeat(2, 260px);
+
+    border:3px double #5dfe55;
+    background:black;
+}
+
+.recordGrid{
+    display:contents;
+}
+
+/* each shelf square */
+.recordSection{
+    position:relative;
+
+    border:3px double #2f8f2f;
+
+    display:flex;
+    align-items:flex-end;
+
+    padding:15px;
+    gap:4px;
+
+    overflow:hidden;
+}
+
+/* individual vinyl */
+.recordCard{
+    position:relative;
+
+    width:22px;
+    height:170px;
+
+    cursor:pointer;
+
+    transition:
+            transform 0.2s ease,
+            margin 0.2s ease;
+
+    flex-shrink:0;
+}
+
+.recordCard:hover{
+    transform:
+            scaleX(1.4)
+            scaleY(1.08)
+            translateY(-12px);
+
+    z-index:20;
+}
+
+/* thin side-view record */
+.record{
+    width:12px;
+    height:170px;
+
+    position:relative;
+
+    background:#111;
+
+    border-left:2px solid #5dfe55;
+    border-right:2px solid #5dfe55;
+
+    box-shadow:
+            1px 0 0 #222,
+            2px 0 0 #444;
+
+    border-radius:1px;
+}
+
+/* top lip */
+.record::before{
+    content:"";
+
+    position:absolute;
+
+    top:-6px;
+    left:-2px;
+
+    width:16px;
+    height:4px;
+
+    background:#5dfe55;
+
+    border-radius:1px;
+}
+
+/* popup info */
+.info{
+    position:absolute;
+
+    bottom:190px;
+    left:50%;
+
+    transform:translateX(-50%);
+
+    width:180px;
+
+    background:black;
+    border:2px solid #5dfe55;
+
+    padding:8px;
+
+    opacity:0;
+    pointer-events:none;
+
+    transition:0.2s;
+
+    text-align:center;
+
+    color:#5dfe55;
+    font-size:13px;
+    font-family:"Cascadia Code", monospace;
+}
+
+.recordCard:hover .info{
+    opacity:1;
+}
+
+.location{
+    color:#8aff84;
+    margin-top:5px;
+}
+
+.searchHover{
+    transform:
+            scaleX(1.4)
+            scaleY(1.08)
+            translateY(-12px);
+
+    z-index:20;
+}
+
+.searchHover .info{
+    opacity:1;
 }
