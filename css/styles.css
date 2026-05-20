@@ -480,3 +480,64 @@
 .searchHover .record::before{
     background:red;
 }
+
+@media only screen and (max-width: 900px){
+
+    .title{
+        font-size:8vw;
+    }
+
+    .searchBox input{
+        width:80%;
+        font-size:4vw;
+    }
+
+    .bookshelf{
+        width:95%;
+        grid-template-columns:1fr;
+        grid-template-rows:auto;
+    }
+
+    .recordSection{
+        min-height:180px;
+
+        padding:4px;
+        gap:0px;
+
+        justify-content:flex-start;
+
+        overflow-x:auto;
+        overflow-y:visible;
+    }
+
+    .recordCard{
+        width:5px;
+        height:120px;
+    }
+
+    .record{
+        width:4px;
+        height:120px;
+    }
+
+    .record::before{
+        width:6px;
+        height:2px;
+    }
+
+    .info{
+        width:140px;
+        font-size:10px;
+
+        top:-75px;
+    }
+
+    .footerText{
+        font-size:3vw;
+    }
+
+    .asciitext{
+        font-size:3vw !important;
+        overflow-x:auto;
+    }
+}
