@@ -1,10 +1,104 @@
 row,column,slot,artist,title
-1,1,1,Daft Punk,Discovery
+1,1,1,Pink Floyd,The Dark Side of the Moon
 1,1,2,Nirvana,Nevermind
-1,1,3,Pink Floyd,The Dark Side of the Moon
-1,2,1,Miles Davis,Kind of Blue
-1,2,2,MF DOOM,Madvillainy
-2,1,1,Radiohead,OK Computer
-2,1,2,Kanye West,Graduation
-2,2,1,The Beatles,Abbey Road
-2,2,2,Tyler The Creator,IGOR
+1,1,3,Daft Punk,Discovery
+1,1,4,Radiohead,OK Computer
+1,1,5,MF DOOM,Madvillainy
+1,1,6,Kendrick Lamar,good kid m.A.A.d city
+1,1,7,The Beatles,Abbey Road
+1,1,8,Tyler The Creator,IGOR
+1,1,9,Kanye West,Graduation
+1,1,10,Metallica,Master of Puppets
+1,1,11,Led Zeppelin,IV
+1,1,12,Frank Ocean,Blonde
+1,1,13,Tame Impala,Currents
+1,1,14,Gorillaz,Demon Days
+1,1,15,Rush,Moving Pictures
+1,1,16,Queen,A Night at the Opera
+1,1,17,Michael Jackson,Thriller
+1,1,18,David Bowie,Heroes
+1,1,19,Fleetwood Mac,Rumours
+1,1,20,Arctic Monkeys,AM
+1,1,21,Tool,Lateralus
+1,1,22,Yes,Fragile
+1,1,23,Mac Miller,Swimming
+1,1,24,Outkast,Stankonia
+1,1,25,The Smiths,The Queen is Dead
+
+1,2,1,Aphex Twin,Selected Ambient Works
+1,2,2,Boards of Canada,Music Has the Right to Children
+1,2,3,Justice,Cross
+1,2,4,Deadmau5,Random Album Title
+1,2,5,Portishead,Dummy
+1,2,6,Massive Attack,Mezzanine
+1,2,7,The Cure,Disintegration
+1,2,8,New Order,Power Corruption and Lies
+1,2,9,Depeche Mode,Violator
+1,2,10,Pixies,Doolittle
+1,2,11,Blur,Parklife
+1,2,12,Oasis,Definitely Maybe
+1,2,13,Green Day,Dookie
+1,2,14,Weezer,Blue Album
+1,2,15,Pearl Jam,Ten
+1,2,16,Soundgarden,Superunknown
+1,2,17,Alice in Chains,Dirt
+1,2,18,The Strokes,Is This It
+1,2,19,Interpol,Turn on the Bright Lights
+1,2,20,The White Stripes,Elephant
+1,2,21,Black Sabbath,Paranoid
+1,2,22,Iron Maiden,The Number of the Beast
+1,2,23,Slayer,Reign in Blood
+1,2,24,Megadeth,Rust in Peace
+1,2,25,Pantera,Cowboys from Hell
+
+2,1,1,Nas,Illmatic
+2,1,2,Dr Dre,2001
+2,1,3,Snoop Dogg,Doggystyle
+2,1,4,Wu Tang Clan,Enter the Wu-Tang
+2,1,5,A Tribe Called Quest,Midnight Marauders
+2,1,6,J Dilla,Donuts
+2,1,7,Mos Def,Black on Both Sides
+2,1,8,Common,Be
+2,1,9,Earl Sweatshirt,Doris
+2,1,10,Joey Bada$$,1999
+2,1,11,Childish Gambino,Because the Internet
+2,1,12,Tyler The Creator,Flower Boy
+2,1,13,Kid Cudi,Man on the Moon
+2,1,14,Travis Scott,Astroworld
+2,1,15,Future,DS2
+2,1,16,Playboi Carti,Die Lit
+2,1,17,Lil Uzi Vert,Eternal Atake
+2,1,18,Denzel Curry,TA13OO
+2,1,19,JPEGMAFIA,LP!
+2,1,20,Run The Jewels,RTJ4
+2,1,21,Brockhampton,Saturation
+2,1,22,Pusha T,Daytona
+2,1,23,Freddie Gibbs,Piñata
+2,1,24,Westside Gunn,Pray for Paris
+2,1,25,Madvillain,Madvillainy
+
+2,2,1,Hans Zimmer,Interstellar Soundtrack
+2,2,2,John Williams,Star Wars OST
+2,2,3,Joe Hisaishi,Spirited Away OST
+2,2,4,Vangelis,Blade Runner OST
+2,2,5,Daft Punk,TRON Legacy
+2,2,6,Clint Mansell,Requiem for a Dream
+2,2,7,Ramin Djawadi,Westworld OST
+2,2,8,Gustavo Santaolalla,The Last of Us OST
+2,2,9,Nobuo Uematsu,Final Fantasy VII OST
+2,2,10,Koji Kondo,Zelda Ocarina of Time OST
+2,2,11,C418,Minecraft Volume Alpha
+2,2,12,Lena Raine,Celeste OST
+2,2,13,Yasunori Mitsuda,Chrono Trigger OST
+2,2,14,Toby Fox,Undertale OST
+2,2,15,Disasterpeace,FEZ OST
+2,2,16,Michael Giacchino,Lost OST
+2,2,17,Trent Reznor,The Social Network OST
+2,2,18,Howard Shore,LOTR Fellowship OST
+2,2,19,Ennio Morricone,The Good the Bad and the Ugly OST
+2,2,20,Goblin,Suspiria OST
+2,2,21,Various Artists,Guardians of the Galaxy Mix
+2,2,22,Kavinsky,OutRun
+2,2,23,Carpenter Brut,Trilogy
+2,2,24,Perturbator,Dangerous Days
+2,2,25,HOME,Odyssey

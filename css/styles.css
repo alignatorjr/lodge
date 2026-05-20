@@ -327,15 +327,17 @@
 }
 
 .bookshelf{
-    width:900px;
+    width:1000px;
     margin:auto;
 
     display:grid;
     grid-template-columns:repeat(2, 1fr);
-    grid-template-rows:repeat(2, 260px);
+    grid-template-rows:repeat(2, 220px);
 
     border:3px double #5dfe55;
     background:black;
+
+    overflow:visible;
 }
 
 .recordGrid{
@@ -345,73 +347,65 @@
 /* each shelf square */
 .recordSection{
     position:relative;
+    z-index:1;
 
     border:3px double #2f8f2f;
 
     display:flex;
     align-items:flex-end;
 
-    padding:15px;
-    gap:4px;
+    padding:8px;
+    gap:1px;
 
-    overflow:hidden;
+    overflow:visible;
 }
 
-/* individual vinyl */
 .recordCard{
     position:relative;
 
-    width:22px;
-    height:170px;
+    width:8px;
+    height:150px;
 
     cursor:pointer;
-
-    transition:
-            transform 0.2s ease,
-            margin 0.2s ease;
-
+    transition:0.2s;
     flex-shrink:0;
 }
 
 .recordCard:hover{
     transform:
-            scaleX(1.4)
+            scaleX(2)
             scaleY(1.08)
-            translateY(-12px);
+            translateY(-10px);
 
-    z-index:20;
+    z-index:999;
 }
 
-/* thin side-view record */
 .record{
-    width:12px;
-    height:170px;
+    width:6px;
+    height:150px;
 
     position:relative;
 
     background:#111;
 
-    border-left:2px solid #5dfe55;
-    border-right:2px solid #5dfe55;
+    border-left:1px solid #5dfe55;
+    border-right:1px solid #5dfe55;
 
-    box-shadow:
-            1px 0 0 #222,
-            2px 0 0 #444;
+    box-shadow:none;
 
     border-radius:1px;
 }
 
-/* top lip */
 .record::before{
     content:"";
 
     position:absolute;
 
-    top:-6px;
-    left:-2px;
+    top:-5px;
+    left:-1px;
 
-    width:16px;
-    height:4px;
+    width:8px;
+    height:3px;
 
     background:#5dfe55;
 
@@ -448,6 +442,10 @@
 
 .recordCard:hover .info{
     opacity:1;
+
+    transform:
+            translateX(-50%)
+            scaleX(0.75);
 }
 
 .location{
