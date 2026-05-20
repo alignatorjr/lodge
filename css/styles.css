@@ -467,3 +467,18 @@
 .searchHover .info{
     opacity:1;
 }
+
+.searchHover .record{
+    background:#3b0000;
+
+    border-left:2px solid red;
+    border-right:2px solid red;
+
+    box-shadow:
+            1px 0 0 #770000,
+            2px 0 0 #aa0000;
+}
+
+.searchHover .record::before{
+    background:red;
+}
