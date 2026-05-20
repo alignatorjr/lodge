@@ -490,92 +490,55 @@
     }
 
     .title{
-        font-size:7vw;
-        margin-bottom:3vw;
+        font-size:8vw;
+        margin-bottom:30px;
 
         color:red !important;
     }
 
-    .searchBox{
-        margin-bottom:4vw;
-    }
-
     .searchBox input{
-        width:92%;
-        height:10vw;
-
+        width:80%;
         font-size:4vw;
-        padding:1vw;
     }
 
     .bookshelf{
-        width:98vw;
-
+        width:95%;
         grid-template-columns:1fr;
         grid-template-rows:auto;
-
-        border-width:2px;
     }
 
     .recordSection{
-        min-height:34vw;
+        min-height:180px;
 
-        padding:1vw;
+        padding:4px;
         gap:0px;
+
+        justify-content:flex-start;
 
         overflow-x:auto;
         overflow-y:visible;
-
-        scrollbar-width:none;
-    }
-
-    .recordSection::-webkit-scrollbar{
-        display:none;
     }
 
     .recordCard{
-        width:2px;
-        height:24vw;
-    }
-
-    .recordCard:hover{
-        transform:
-                scale(2)
-                translateY(-2vw);
-
-        z-index:999;
+        width:5px;
+        height:120px;
     }
 
     .record{
-        width:2px;
-        height:24vw;
-
-        border-left:1px solid #5dfe55;
-        border-right:1px solid #5dfe55;
+        width:4px;
+        height:120px;
     }
 
     .record::before{
-        width:4px;
+        width:6px;
         height:2px;
-
-        top:-3px;
-        left:-1px;
     }
 
     .info{
-        width:32vw;
+        width:140px;
+        font-size:10px;
 
-        font-size:2.2vw;
-
-        top:-18vw;
-
-        padding:1vw;
-
-        z-index:1000;
-    }
-
-    .footer{
-        padding-top:5vw;
+        top:-75px;
     }
 
     .footerText{
@@ -583,10 +546,7 @@
     }
 
     .asciitext{
-        font-size:2.2vw !important;
-
+        font-size:3vw !important;
         overflow-x:auto;
-
-        white-space:pre;
     }
 }
